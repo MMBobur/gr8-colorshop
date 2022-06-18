@@ -90,7 +90,7 @@ React.useEffect(() => {
               </Select>
             </FormControl>
 
-            <FormControl variant="standard" style={{ m: 1, minWidth: 80 ,borderLeft:'1px solid #FFFFFFAF'}}>
+            <FormControl variant="standard" style={{ m: 1, minWidth: 80 }}>
               <InputLabel id="demo-simple-select-standard-label">English</InputLabel>
               <Select
                 labelId="demo-simple-select-standard-label"
@@ -109,7 +109,7 @@ React.useEffect(() => {
               </Select>
             </FormControl>
 
-            <FormControl variant="standard" style={{ m: 1, minWidth: 110,borderLeft:'1px solid #FFFFFFAF'}}>
+            <FormControl variant="standard" style={{ m: 1, minWidth: 110}}>
               <InputLabel id="demo-simple-select-standard-label">My account</InputLabel>
               <Select
                 labelId="demo-simple-select-standard-label"

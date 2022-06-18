@@ -131,8 +131,8 @@ function BestSellers() {
   };
   return (
     <Container>
-      <Box sx={{ textAlign: 'center', justifyContent: 'center', mt: '10%', margin: '0px', marginBottom: '40px' }}>
-        <Typography variant='h4' sx={{ fontWeight: 'bold' }}>Best Sellers</Typography>
+      <Box sx={{ textAlign: 'center', justifyContent: 'center', mt: '15%', margin: '0px', marginBottom: '40px' }}>
+        <Typography variant='h4' sx={{ fontWeight: 'bold',marginTop:"5%" }}>Best Sellers</Typography>
         <Typography sx={{ border: '3px solid #FE4C50FF', width: '6%', ml: 'auto', mr: 'auto' }}></Typography>
       </Box>
       <Slider {...settings}>
