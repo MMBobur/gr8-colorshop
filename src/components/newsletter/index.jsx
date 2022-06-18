@@ -45,7 +45,7 @@ export default function BasicGrid() {
           </Grid>
         </Container>
       </Box>
-      <Container>
+      {/* <Container>
         <Grid justifyContent='center' container sx={{ py: '3%', }} >
           <Grid item xs={12} md={6}>
             <Box sx={{ justifyContent: { xs: 'center', sm: 'center', md: 'start', lg: "start" }, display: 'flex' }}>
@@ -63,13 +63,12 @@ export default function BasicGrid() {
               <Button href='https://preview.colorlib.com/theme/coloshop/#'><TelegramIcon /></Button>
             </Box>
           </Grid>
-          {/* <Grid item xs={6} md={6}> */}
-          {/* </Grid> */}
         </Grid>
             <Typography sx={{color:'#686C74'}}>
-              ©2018 All Rights Reserverd. This template is made with <FavoriteBorderIcon sx={{fontSize:'medium',color:'red'}}/> by <a href="#" style={{color:'red'}}> Colorlib</a>
+              ©2018 All Rights Reserverd. This template is made with <FavoriteBorderIcon sx={{fontSize:'medium',color:'red'}}/> by <a href="#" style={{color:'red'}}>
+                 Colorlib</a>
             </Typography>
-      </Container>
+      </Container> */}
     </Box>
   );
 }
