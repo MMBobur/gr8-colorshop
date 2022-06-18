@@ -1,0 +1,101 @@
+.text{
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    background:rgba(5, 5, 5, 0.664);
+    opacity:0;
+  }
+.pic:hover .text
+  {
+    
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    width: 30%;
+    height: 35%;
+    margin-top: -33%;
+    margin-left: 3%;
+    text-align:center;
+    color:black;
+    font-size:40px;
+    font-weight:100;
+    font-family:"salom", Times, serif;
+    font-style: center;
+  } 
+  @media  screen and (min-Width:320px){
+    .pic :hover.text
+    {
+      text-overflow: clip;
+      position: absolute;
+      background-color: white;
+      opacity: 0.8;
+      width: 270px;
+      height: 250px;
+      margin-top: 20%;
+      margin-left: 3%;
+      text-align:center;
+      color:black;
+      font-size:30px;
+      font-weight:100;
+      font-family:"salom", Times, serif;
+      font-style: center;
+    } 
+  }
+  @media  screen and (min-Width:768px){
+    .pic :hover.text
+    {
+      text-overflow: clip;
+      position: absolute;
+      background-color: white;
+      opacity: 0.8;
+      width: 630px;
+      height: 250px;
+      margin-top: 10%;
+      margin-left: 5%;
+      text-align:center;
+      color:black;
+      font-size:30px;
+      font-weight:100;
+      font-family:"salom", Times, serif;
+      font-style: center;
+    } 
+  }
+  @media  screen and (min-Width:2560px){
+    .pic :hover.text
+    {
+      text-overflow: clip;
+      position: absolute;
+      background-color: white;
+      opacity: 0.8;
+      width: 300px;
+      height: 250px;
+      margin-top: ;
+      margin-left: 1%;
+      margin-bottom: 2%;
+      text-align:center;
+      color:black;
+      font-size:30px;
+      font-weight:100;
+      font-family:"salom", Times, serif;
+      font-style: center;
+    } 
+  }
+  @media  screen and (min-Width:1440px){
+    .pic :hover.text
+    {
+      text-overflow: clip;
+      position: absolute;
+      background-color: white;
+      opacity: 0.8;
+      width: 300px;
+      height: 350px;
+      margin-top: 2%;
+      margin-left: 2%;
+      text-align:center;
+      color:black;
+      font-size:30px;
+      font-weight:100;
+      font-family:"salom", Times, serif;
+      font-style: center;
+    } 
+  }
